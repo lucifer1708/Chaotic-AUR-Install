@@ -8,5 +8,5 @@
 
 Append (add to the  **end**  of the file)  `/etc/pacman.conf`:
 
-`[chaotic-aur]  
+`[chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist`
