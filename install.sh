@@ -5,14 +5,6 @@
 RED='\e[1;31m'
 REDn='\e[0m'
 
-if [[ "$EUID" = 0 ]]; then
-    continue
-else
-    echo "Please Run As Root"
-    sleep 2
-    exit
-fi
-
 
 echo -e "${RED}##############################################${REDn}"
 echo -e "${RED}          GETTING THE CHAOTIC MIRRORLIST      ${RED}"
