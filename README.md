@@ -2,8 +2,7 @@
 
 > Just DO
 
-    sudo chmod +x install.sh
-    sudo ./install.sh
+    curl -o- https://raw.githubusercontent.com/lucifer1708/Chaotic-AUR-Install/main/install.sh | sh
 
 
 Append (add to the  **end**  of the file)  `/etc/pacman.conf`:
